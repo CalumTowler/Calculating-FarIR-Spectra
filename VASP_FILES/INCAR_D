@@ -1,0 +1,16 @@
+ENCUT = 600
+PREC   = Accurate
+LREAL  = .FALSE.
+ISMEAR = -5      
+SIGMA  = 0.05     
+IBRION = 8        
+POTIM  = 0.2   
+ISIF   = 3     
+NSW    = 1     
+NELMIN = 4     
+EDIFF  = 1.0E-8   
+LEPSILON = .TRUE. ! calculate dielectric constants
+LRPA = .FALSE.
+LMAXMIX = 4
+ISTART =  1
+ICHARGE = 0

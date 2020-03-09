@@ -1,0 +1,17 @@
+ENCUT = 600     # Cut off Energy
+PREC = Accurate # Sets precision - related to ENCUT
+LREAL = .FALSE. # Real or reciprocal space
+ISMEAR = -5     # Sets orbital partial occupancy
+SIGMA = 0.05    # Sets width in eV of smearing
+IBRION = -1      # Sets method of moving ions.
+POTIM = 0.2     # Step widths
+ISIF = 3        # Optimise ions, cell dimensions or both
+NSW = 0         # Number of iterations before finishing job.
+NELMIN = 4      # Min number of SCF cycles for each set of ionic positions
+ALGO = Fast     # Determines what algorithm is used
+EDIFF = 5.0E-6  # Determines accuracy at which program stops
+LMAXMIX = 4     # This and the following 4 parameters are optional to improve efficiency
+NFREE = 10
+LPLANE = .TRUE.
+NCORE = 8
+NSIM = 2
